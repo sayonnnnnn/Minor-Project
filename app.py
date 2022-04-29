@@ -41,7 +41,7 @@ with colll:
 
 st.subheader('The Custom dataset for Facial Emotion Detection by using Face Mesh')
 st.write(df.head())
-
+st.write(df.tail())
 st.subheader('Tools Used')
 col, col2, col3 = st.columns(3)
 with col:
