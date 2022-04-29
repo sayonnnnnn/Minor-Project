@@ -24,6 +24,7 @@ st.set_page_config (
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+st.balloons()
 st.title('Human Behaviour Analysis by Body Language using Machine Learning')
 df = pd.read_csv('humanBehaviourFace.csv')
 
@@ -66,3 +67,4 @@ with col7:
 
 st.subheader('Work done till now')
 st.write("Till now we have created a customized dataset wherein, the facial and pose estimation landmarks for 18 features have been captured. ​For now, to classify the features (both facial and pose) we have used simple Random Forest Classifier. ​The probability of different features is not accurate; therefore, we will work upon the model's accuracy and merge the complete facial and pose landmarks.")
+st.balloons()
